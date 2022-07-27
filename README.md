@@ -2,7 +2,7 @@
 
 Pre requirement:
 
-- JDK 8 or above
+- JDK 11 or above
 ****
 **Use:**
 
