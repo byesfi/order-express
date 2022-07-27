@@ -18,7 +18,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <start-class>com.bilalyesfi.store</start-class>
+        <start-class>com.bilalyesfi.store.StoreApplication</start-class>
     </properties>
 
     <modules>

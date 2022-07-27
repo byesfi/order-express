@@ -111,7 +111,7 @@ public class OrderApiControllerTest {
 
         // then - verify the output
         resultActions.andExpect(status().isPreconditionFailed());
-        resultActions.andExpect(content().string("{\"status\":\"PRECONDITION_FAILED\",\"message\":\"Failed!\",\"body\":\"The missing products are [Product(id=1, name=Manzana, quantity=1000, price=10.00)]\"}"));
+        resultActions.andExpect(content().string("{\"status\":\"PRECONDITION_FAILED\",\"message\":\"Failed!\",\"body\":\"The missing products are [Product{id=1, name='Manzana', quantity=1000, price=10.00}]\"}"));
     }
 
     /**
