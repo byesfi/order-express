@@ -6,9 +6,7 @@ Pre requirement:
 ****
 **Use:**
 
-ex```
-mvn clean install && java -jar boot/target/boot-0.0.1-SNAPSHOT.jar
-```
+ex``` mvn clean install && java -jar boot/target/boot-0.0.1-SNAPSHOT.jar ```
 
 
 This will up the SpringBoot MyStore project.
