@@ -9,10 +9,9 @@ Pre requirement:
 ex``` mvn clean install && java -jar boot/target/boot-0.0.1-SNAPSHOT.jar ```
 
 
-This will up the SpringBoot MyStore project.
+This will up the SpringBoot MyStore project in port 8080
 
-To see the endpoints that offer this service, access the following url that offers the swagger specification
-
+To see the endpoints swagger specification access to the following url:
 http://localhost:8080/swagger-ui/
 
 To access to h2 database:
